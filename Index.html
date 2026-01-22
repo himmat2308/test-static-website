@@ -1,13 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Test Static Website</title>
+    <title>Senior Software Developer | .NET Specialist</title>
+
+    <!-- IMPORTANT for GitHub Pages -->
     <base href="/test-static-website/" />
-    <link rel="stylesheet" href="TestStaticWebsite.styles.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Senior Software Developer with 6+ years of experience in .NET, building scalable, reliable, and high-performance enterprise applications." />
+
+    <!-- Bootstrap (already present in lib folder) -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/site.css" />
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .hero {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #0d6efd, #0a58ca);
+            color: #fff;
+        }
+        .section {
+            padding: 60px 20px;
+        }
+        .card {
+            border: none;
+            border-radius: 12px;
+        }
+        .badge-skill {
+            margin: 4px;
+            padding: 8px 12px;
+            font-size: 0.85rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome</h1>
-    <p>This is a NON-Blazor static website hosted for FREE.</p>
+
+<!-- HERO -->
+<section class="hero text-center">
+    <div class="container">
+        <h1 class="fw-bold">Senior Software Developer</h1>
+        <p class="lead mt-3">
+            6+ years of experience designing, developing, and maintaining
+            enterprise-grade applications using <strong>.NET technologies</strong>.
+        </p>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section bg-white">
+    <div class="container">
+        <h2 class="fw-bold mb-4">About Me</h2>
+        <p>
+            I am a results-driven software developer with over six years of hands-on experience
+            in building scalable, secure, and maintainable applications. My primary expertise lies
+            in the <strong>.NET ecosystem</strong>, where I have worked extensively on
+            backend services, RESTful APIs, and enterprise integrations.
+        </p>
+        <p>
+            I believe in writing clean, testable code, following SOLID principles,
+            and continuously improving system performance and reliability.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section">
+    <div class="container">
+        <h2 class="fw-bold mb-4">Technical Skills</h2>
+
+        <div>
+            <span class="badge bg-primary badge-skill">C#</span>
+            <span class="badge bg-primary badge-skill">ASP.NET Core</span>
+            <span class="badge bg-primary badge-skill">Web API</span>
+            <span class="badge bg-primary badge-skill">Entity Framework</span>
+            <span class="badge bg-primary badge-skill">SQL Server</span>
+            <span class="badge bg-primary badge-skill">Azure (Basics)</span>
+            <span class="badge bg-primary badge-skill">REST APIs</span>
+            <span class="badge bg-primary badge-skill">Microservices</span>
+            <span class="badge bg-primary badge-skill">Git</span>
+            <span class="badge bg-primary badge-skill">CI/CD</span>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section bg-white">
+    <div class="container">
+        <h2 class="fw-bold mb-4">Professional Experience</h2>
+
+        <div class="card shadow-sm p-4 mb-4">
+            <h5 class="fw-bold">Senior Software Developer</h5>
+            <p class="text-muted mb-2">Enterprise Applications & Backend Systems</p>
+            <ul>
+                <li>Designed and developed high-performance backend services using ASP.NET Core.</li>
+                <li>Worked on complex SQL queries, performance tuning, and data modeling.</li>
+                <li>Implemented RESTful APIs consumed by web and mobile applications.</li>
+                <li>Collaborated with DevOps teams for CI/CD and deployment automation.</li>
+                <li>Actively participated in code reviews and architectural discussions.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section class="section">
+    <div class="container">
+        <h2 class="fw-bold mb-4">Engineering Philosophy</h2>
+        <p>
+            I focus on building systems that are not only functional but also maintainable
+            in the long run. I value clean architecture, clear communication, and pragmatic
+            decision-making. I enjoy mentoring junior developers and contributing to team growth.
+        </p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-light text-center py-4">
+    <div class="container">
+        <p class="mb-1">© 2026 Senior Software Developer</p>
+        <small>Built with HTML, CSS, and hosted for FREE on GitHub Pages</small>
+    </div>
+</footer>
+
 </body>
 </html>
