@@ -8,9 +8,10 @@
     <base href="/test-static-website/" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Senior Software Developer with 6+ years of experience in .NET, building scalable, reliable, and high-performance enterprise applications." />
+    <meta name="description"
+          content="Senior Software Developer with 6+ years of experience in .NET, building scalable enterprise systems and backend platforms." />
 
-    <!-- Bootstrap (already present in lib folder) -->
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
 
     <!-- Custom styles -->
@@ -18,24 +19,36 @@
 
     <style>
         body {
-            background-color: #f8f9fa;
+            background-color: #f4f5f7;
+            color: #2c2c2c;
         }
+
         .hero {
-            padding: 80px 20px;
-            background: linear-gradient(135deg, #0d6efd, #0a58ca);
-            color: #fff;
+            padding: 90px 20px;
+            background: linear-gradient(135deg, #2f3e46, #354f52);
+            color: #ffffff;
         }
+
         .section {
-            padding: 60px 20px;
+            padding: 70px 20px;
         }
+
         .card {
             border: none;
-            border-radius: 12px;
+            border-radius: 14px;
+            background-color: #ffffff;
         }
+
         .badge-skill {
             margin: 4px;
             padding: 8px 12px;
             font-size: 0.85rem;
+            background-color: #6c757d;
+        }
+
+        footer {
+            background-color: #2f3e46;
+            color: #dcdcdc;
         }
     </style>
 </head>
@@ -46,8 +59,8 @@
     <div class="container">
         <h1 class="fw-bold">Senior Software Developer</h1>
         <p class="lead mt-3">
-            6+ years of experience designing, developing, and maintaining
-            enterprise-grade applications using <strong>.NET technologies</strong>.
+            6+ years of experience building scalable, reliable, and maintainable
+            backend systems using <strong>.NET technologies</strong>.
         </p>
     </div>
 </section>
@@ -57,14 +70,15 @@
     <div class="container">
         <h2 class="fw-bold mb-4">About Me</h2>
         <p>
-            I am a results-driven software developer with over six years of hands-on experience
-            in building scalable, secure, and maintainable applications. My primary expertise lies
-            in the <strong>.NET ecosystem</strong>, where I have worked extensively on
-            backend services, RESTful APIs, and enterprise integrations.
+            I am a senior software developer with over six years of hands-on experience
+            in designing and delivering enterprise-grade applications. My primary focus
+            has been on backend development using the .NET ecosystem, where performance,
+            stability, and clean architecture are critical.
         </p>
         <p>
-            I believe in writing clean, testable code, following SOLID principles,
-            and continuously improving system performance and reliability.
+            I have worked on products that evolved from early-stage platforms to
+            large-scale systems, including solutions that were successfully
+            <strong>acquired by industry leaders</strong>.
         </p>
     </div>
 </section>
@@ -72,38 +86,65 @@
 <!-- SKILLS -->
 <section class="section">
     <div class="container">
-        <h2 class="fw-bold mb-4">Technical Skills</h2>
-
+        <h2 class="fw-bold mb-4">Technical Expertise</h2>
         <div>
-            <span class="badge bg-primary badge-skill">C#</span>
-            <span class="badge bg-primary badge-skill">ASP.NET Core</span>
-            <span class="badge bg-primary badge-skill">Web API</span>
-            <span class="badge bg-primary badge-skill">Entity Framework</span>
-            <span class="badge bg-primary badge-skill">SQL Server</span>
-            <span class="badge bg-primary badge-skill">Azure (Basics)</span>
-            <span class="badge bg-primary badge-skill">REST APIs</span>
-            <span class="badge bg-primary badge-skill">Microservices</span>
-            <span class="badge bg-primary badge-skill">Git</span>
-            <span class="badge bg-primary badge-skill">CI/CD</span>
+            <span class="badge badge-skill">C#</span>
+            <span class="badge badge-skill">ASP.NET Core</span>
+            <span class="badge badge-skill">Web API</span>
+            <span class="badge badge-skill">Entity Framework</span>
+            <span class="badge badge-skill">SQL Server</span>
+            <span class="badge badge-skill">Microservices</span>
+            <span class="badge badge-skill">REST Architecture</span>
+            <span class="badge badge-skill">CI/CD</span>
+            <span class="badge badge-skill">Git</span>
         </div>
     </div>
 </section>
 
-<!-- EXPERIENCE -->
+<!-- PROJECTS -->
 <section class="section bg-white">
     <div class="container">
-        <h2 class="fw-bold mb-4">Professional Experience</h2>
+        <h2 class="fw-bold mb-5">Key Projects</h2>
 
+        <!-- GeoData -->
         <div class="card shadow-sm p-4 mb-4">
-            <h5 class="fw-bold">Senior Software Developer</h5>
-            <p class="text-muted mb-2">Enterprise Applications & Backend Systems</p>
-            <ul>
-                <li>Designed and developed high-performance backend services using ASP.NET Core.</li>
-                <li>Worked on complex SQL queries, performance tuning, and data modeling.</li>
-                <li>Implemented RESTful APIs consumed by web and mobile applications.</li>
-                <li>Collaborated with DevOps teams for CI/CD and deployment automation.</li>
-                <li>Actively participated in code reviews and architectural discussions.</li>
-            </ul>
+            <h5 class="fw-bold">GeoData</h5>
+            <p class="text-muted mb-2">
+                Enterprise Location & Property Data Platform
+            </p>
+            <p>
+                GeoData was a data-intensive platform focused on processing and
+                managing large-scale geographic and property-related datasets.
+                I worked on backend services, API development, and database optimization
+                to ensure high performance and reliability.
+            </p>
+            <p class="mb-0">
+                The product was later <strong>acquired by ATTOM Data Solutions</strong>,
+                reflecting its maturity, scalability, and business value.
+            </p>
+        </div>
+
+        <!-- MyCubo -->
+        <div class="card shadow-sm p-4">
+            <h5 class="fw-bold">MyCubo</h5>
+            <p class="text-muted mb-2">
+                Enterprise Fleet & Mobility Management Platform
+            </p>
+            <p>
+                MyCubo is an enterprise software platform designed to support fleet and
+                mobility management use cases by providing centralized visibility into
+                vehicle-related operations and mobility data.
+            </p>
+            <p>
+                The platform focuses on operational monitoring, utilization tracking,
+                and data-driven decision-making, while maintaining scalability and
+                seamless integration with other enterprise systems.
+            </p>
+            <p class="mb-0">
+                I worked on backend development for this project, contributing to
+                .NET-based services, API implementation, and system design with an
+                emphasis on performance, reliability, and clean architecture.
+            </p>
         </div>
     </div>
 </section>
@@ -111,20 +152,21 @@
 <!-- PHILOSOPHY -->
 <section class="section">
     <div class="container">
-        <h2 class="fw-bold mb-4">Engineering Philosophy</h2>
+        <h2 class="fw-bold mb-4">Engineering Approach</h2>
         <p>
-            I focus on building systems that are not only functional but also maintainable
-            in the long run. I value clean architecture, clear communication, and pragmatic
-            decision-making. I enjoy mentoring junior developers and contributing to team growth.
+            I prioritize clarity over complexity, scalability over shortcuts,
+            and maintainability over quick fixes. I enjoy working on systems
+            where thoughtful design decisions make a long-term impact and
+            mentoring team members to raise overall code quality.
         </p>
     </div>
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-dark text-light text-center py-4">
+<footer class="text-center py-4">
     <div class="container">
         <p class="mb-1">© 2026 Senior Software Developer</p>
-        <small>Built with HTML, CSS, and hosted for FREE on GitHub Pages</small>
+        <small>Built using static HTML & CSS • Hosted for FREE on GitHub Pages</small>
     </div>
 </footer>
 
